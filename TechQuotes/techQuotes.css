@@ -1,0 +1,46 @@
+body {
+    background-color: lightgrey;
+    background: url("images/CoverImage.jpg");
+}
+
+#container {
+    background-color: rgb(163, 181, 206);
+    border: 2px solid rgb(0, 2, 3);
+    height: 350px;
+    width: 750px;
+    margin: 10px, 75px;
+    text-align: center;
+}
+
+h1 {
+    font-family: "cursive", "Apple Chancery";
+}
+
+#btn {
+    margin: 50px auto;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    background-color: seagreen;
+}
+
+#output {
+    margin: 25px;
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 1400px) {
+    #container {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    #btn {
+        margin: 30px auto;
+        height: 30px;
+    }
+    #output {
+        margin: 20px;
+        font-size: 20px;
+    }
+}
